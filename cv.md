@@ -24,3 +24,7 @@ function multiply(a, b) {
   return a * b;
 }
 ```
+
+## Courses
+
+RSchool stage 0 (in progress)
