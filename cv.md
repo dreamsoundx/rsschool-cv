@@ -33,3 +33,7 @@ RSchool stage 0 (in progress)
 
 Ryazan State Radio Engineering University named after V.F. Utkin
 Bachelor 2017-2021
+
+## English skills
+
+B1/B2
