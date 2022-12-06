@@ -28,3 +28,8 @@ function multiply(a, b) {
 ## Courses
 
 RSchool stage 0 (in progress)
+
+## Education
+
+Ryazan State Radio Engineering University named after V.F. Utkin
+Bachelor 2017-2021
