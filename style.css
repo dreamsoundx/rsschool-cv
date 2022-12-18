@@ -185,6 +185,74 @@ body {
   font-weight: 400;
 }
 
+.skills {
+  padding: 40px 0px 40px 50px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.301);
+}
+.skills__title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.skills__list {
+  padding: 20px 0px 0px 0px;
+  line-height: 35px;
+}
+.skills__item-html {
+  background: url(assets/svg/icons8-html-5.svg) no-repeat;
+  background-size: 37px;
+  padding-left: 40px;
+  margin-left: -1px;
+  margin-bottom: 2px;
+}
+.skills__item-css {
+  background: url(assets/svg/icons8-css3.svg) no-repeat;
+  background-size: 35px;
+  padding-left: 40.5px;
+  margin-bottom: 3px;
+}
+.skills__item-js {
+  background: url(assets/svg/icons8-js.svg) no-repeat;
+  background-size: 29px;
+  padding-left: 37px;
+  line-height: 29px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+
+.skills__item-github {
+  background: url(assets/svg/icons8-github.svg) no-repeat;
+  background-size: 35px;
+  padding-left: 41px;
+  margin-bottom: 4px;
+  margin-left: -1px;
+}
+
+.skills__item-figma {
+  background: url(assets/svg/icons8-figma.svg) no-repeat;
+  background-size: 35px;
+  padding-left: 42px;
+  margin-left: -2px;
+  margin-bottom: 4px;
+}
+.skills__item-photoshop {
+  background: url(assets/svg/icons8-adobe-photoshop.svg) no-repeat;
+  background-size: 35px;
+  padding-left: 40px;
+  margin-bottom: 4px;
+}
+.skills__item-cplusplus {
+  background: url(assets/svg/icons8-c++.svg) no-repeat;
+  background-size: 35px;
+  padding-left: 40px;
+}
+.skills__item-1c {
+  background: url(assets/svg/icons-1c.svg) no-repeat;
+  background-size: 35px;
+  padding-left: 40px;
+}
+
 .contacts {
 }
 .contacts__title {
