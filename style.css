@@ -208,7 +208,7 @@ body {
 }
 .skills__item-css {
   background: url(assets/svg/icons8-css3.svg) no-repeat;
-  background-size: 35px;
+  background-size: 36px;
   padding-left: 40.5px;
   margin-bottom: 3px;
 }
@@ -254,19 +254,50 @@ body {
 }
 
 .contacts {
+  padding: 40px 0px 40px 50px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.301);
 }
 .contacts__title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 .contacts__list {
+  padding: 20px 0px 0px 0px;
+  line-height: 35px;
+  list-style: none;
 }
 .contacts__item-discord {
+  background: url(assets/svg/icons8-discord.svg) no-repeat;
+  background-size: 30px;
+  padding-left: 40px;
+  background-position: left center;
 }
 .contacts__item-telegram {
+  background: url(assets/svg/icons8-telegram-app.svg) no-repeat;
+  background-size: 30px;
+  padding-left: 40px;
+  background-position: left center;
 }
-.contacts__link {
-}
+
 .contacts__item-gmail {
+  background: url(assets/svg/icons8-gmail.svg) no-repeat;
+  background-size: 30px;
+  padding-left: 40px;
+  background-position: left center;
 }
+
+.contacts__link {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s all;
+}
+
+.contacts__link:hover {
+  color: #000;
+}
+
 .right-side {
   display: inline-block;
 }
