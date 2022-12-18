@@ -144,44 +144,22 @@ body {
 }
 
 .left-side {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   float: left;
   line-height: 30px;
   width: 35%;
-  background-color: rgb(184, 62, 62);
+  background-color: rgb(18, 8, 43);
   color: #fff;
 }
 .avatar {
   width: 100%;
 }
 
-.languages {
-  padding: 40px 0px 40px 50px;
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.301);
-}
-.languages__title {
-  text-decoration: underline;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-.languages__list {
-  padding: 20px 0px 0px 0px;
-  line-height: 35px;
-}
-.languages__item {
-  list-style: inside;
-  font-weight: 700;
-}
-
-.languages__item-status {
-  padding: 0px 0px 0px 28px;
-  font-weight: 400;
-}
-
 .courses {
   padding: 40px 0px 40px 50px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.301);
+  background-color: rgb(184, 62, 62);
 }
 .courses__title {
   text-decoration: underline;
@@ -205,7 +183,7 @@ body {
 
 .skills {
   padding: 40px 0px 40px 50px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.301);
+  background-color: rgb(184, 62, 62);
 }
 .skills__title {
   text-decoration: underline;
@@ -273,7 +251,7 @@ body {
 
 .contacts {
   padding: 40px 0px 40px 50px;
-  border-bottom: 3px solid rgba(0, 0, 0, 0.301);
+  background-color: rgb(184, 62, 62);
 }
 .contacts__title {
   text-decoration: underline;
@@ -365,6 +343,58 @@ body {
 }
 .education__desc {
   margin-bottom: 20px;
+}
+
+.languages {
+  padding: 50px 30px 30px 60px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.301);
+}
+.languages__title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.languages__list {
+  line-height: 35px;
+}
+.languages__item {
+  list-style: inside;
+  font-weight: 700;
+}
+
+.languages__item-status {
+  padding: 0px 0px 0px 28px;
+  font-weight: 400;
+}
+
+.projects {
+  padding: 50px 30px 30px 60px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.301);
+}
+.projects__title {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.project__list {
+  line-height: 35px;
+}
+.project__item {
+  list-style: inside;
+}
+
+.project__item-link {
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+  transition: 0.3s all;
+}
+
+.project__item-link:hover {
+  text-decoration: underline;
 }
 
 .code-example__title {
