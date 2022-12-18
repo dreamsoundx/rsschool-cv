@@ -138,17 +138,17 @@ body {
   width: 100%;
 }
 .languages {
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0px 40px 50px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.301);
 }
 .languages__title {
   text-decoration: underline;
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 700;
-  padding: 0px 0px 0px 40px;
 }
 .languages__list {
-  padding: 20px 0px 0px 40px;
+  padding: 20px 0px 0px 0px;
   line-height: 35px;
 }
 .languages__item {
@@ -162,33 +162,29 @@ body {
 }
 
 .courses {
+  padding: 40px 0px 40px 50px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.301);
 }
 .courses__title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-.courses__desc {
+.courses__list {
+  padding: 20px 0px 0px 0px;
+  line-height: 35px;
 }
 .courses__item {
+  list-style: inside;
+  font-weight: 700;
 }
-.skills {
+
+.courses__item-status {
+  padding: 0px 0px 0px 28px;
+  font-weight: 400;
 }
-.skills__title {
-}
-.skills__list {
-}
-.skills__item-html {
-}
-.skills__item-css {
-}
-.skills__item-js {
-}
-.skills__item-figma {
-}
-.skills__item-photoshop {
-}
-.skills__item-cplusplus {
-}
-.skills__item-1c {
-}
+
 .contacts {
 }
 .contacts__title {
