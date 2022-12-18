@@ -8,7 +8,7 @@
     <title>Timur Kadyrov CV</title>
   </head>
   <body>
-    <div class="container">
+    <div class="wrapper">
       <header class="header">
         <nav class="nav">
           <ul class="nav__list">
@@ -31,7 +31,7 @@
               <a class="nav__link" href="#skills">Skills</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#Contacts">Contacts</a>
+              <a class="nav__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -39,19 +39,6 @@
       <main class="main">
         <div class="left-side">
           <img src="assets/img/avatar.jpg" alt="" class="avatar" />
-          <section class="languages" id="languages">
-            <h2 class="languages__title">Languages</h2>
-            <ul class="languages__list">
-              <li class="languages__item">
-                English
-                <p class="languages__item-status">B1 Intermediate</p>
-              </li>
-              <li class="languages__item">
-                Russian
-                <p class="languages__item-status">Native</p>
-              </li>
-            </ul>
-          </section>
           <section class="courses" id="courses">
             <h2 class="courses__title">Courses</h2>
             <ul class="courses__list">
@@ -97,15 +84,17 @@
         </div>
         <div class="right-side">
           <section class="name">
-            <h1 class="name__title">Timur Kadyrov</h1>
-            <p class="name__info">Astana, Kazakhstan</p>
+            <h1 class="name__title">Timur<br />Kadyrov</h1>
+            <p class="name__info">
+              Junior Front-end Developer<br />Astana, Kazakhstan
+            </p>
           </section>
           <section class="about-me" id="about-me">
             <h2 class="about-me__title">About Me</h2>
             <p class="about-me__info">
               My main goal is to become a web-developer. I never tried to work
-              in this field, but I want to. I hope that I can increase my
-              ability to learn new things with RS School.
+              in this field, but I want to. Hope that I can increase my ability
+              to learn new things with RS School.
             </p>
           </section>
           <section class="education" id="education">
@@ -115,6 +104,19 @@
               Bachelor (2017-2021)
             </p>
           </section>
+          <section class="languages" id="languages">
+            <h2 class="languages__title">Languages</h2>
+            <ul class="languages__list">
+              <li class="languages__item">
+                English
+                <p class="languages__item-status">B1 Intermediate</p>
+              </li>
+              <li class="languages__item">
+                Russian
+                <p class="languages__item-status">Native</p>
+              </li>
+            </ul>
+          </section>
           <section class="code-example" id="code-example">
             <h2 class="code-example__title">Code Example</h2>
             <div class="example__code">
@@ -122,7 +124,7 @@
                     <code class="js__code">
                 
 function multiply(a, b){
-return a * b;
+    return a * b;
 }
                     </code> 
                 </pre>
